@@ -1,0 +1,846 @@
+{
+  "sample_sizes": {
+    "calibration": {
+      "assigned": 2700,
+      "complete": 2686,
+      "sources": 1350,
+      "tasks": {
+        "Summary": 900,
+        "QA": 900,
+        "Data2txt": 900
+      }
+    },
+    "evaluation": {
+      "assigned": 2700,
+      "complete": 2688,
+      "sources": 450,
+      "tasks": {
+        "Data2txt": 900,
+        "Summary": 900,
+        "QA": 900
+      }
+    }
+  },
+  "calibration_completion_count": 410,
+  "contracts": {
+    "primary": {
+      "contract": {
+        "D": "10596643/1326336",
+        "R": "14",
+        "blind_margin": "1/100",
+        "c": "1",
+        "deposit_interval": [
+          "13649/1727",
+          "3101/384"
+        ],
+        "minimum_reward": "1642383/125471",
+        "radius": "0",
+        "target_margin": "1/20"
+      },
+      "calibration_complete_case": {
+        "h": 0.7475800446760983,
+        "a0": 0.35852568875651525,
+        "a_plus": 0.43177290836653387,
+        "a_minus": 0.1415929203539823,
+        "delta": 0.05475815970845769,
+        "weak_min_reward": 11.71467986979127,
+        "target_credit": 0.12512375922407437,
+        "blind_credit": -0.10564206882888937,
+        "target_menu_margin": 0.12512375922407437
+      },
+      "evaluation_complete_case": {
+        "h": 0.7313988095238095,
+        "a0": 0.33370535714285715,
+        "a_plus": 0.41861648016276704,
+        "a_minus": 0.10249307479224377,
+        "delta": 0.06210389429209184,
+        "weak_min_reward": 10.728709535079625,
+        "target_credit": -0.11082455508876655,
+        "blind_credit": -0.651426533826755,
+        "target_menu_margin": -0.11082455508876655
+      },
+      "evaluation_assigned_sample_bounds": {
+        "idle": {
+          "queries": [
+            0,
+            0
+          ],
+          "accepted": [
+            0,
+            0
+          ],
+          "rejected": [
+            0,
+            0
+          ],
+          "fn": [
+            943,
+            943
+          ],
+          "fp": [
+            0,
+            0
+          ],
+          "lost_acceptances": [
+            898,
+            908
+          ],
+          "avoided_rejections": [
+            1792,
+            1802
+          ],
+          "mean_credit": [
+            0.0,
+            0.0
+          ],
+          "conditional_tokens": {
+            "bounds": [
+              0,
+              0
+            ],
+            "unknown_possible": false,
+            "interpretation": "Potential workflow cost,not actual paid saving;unknown usage has no finite certified upper bound."
+          }
+        },
+        "blind": {
+          "queries": [
+            2700,
+            2700
+          ],
+          "accepted": [
+            898,
+            908
+          ],
+          "rejected": [
+            1792,
+            1802
+          ],
+          "fn": [
+            283,
+            286
+          ],
+          "fp": [
+            241,
+            248
+          ],
+          "lost_acceptances": [
+            0,
+            0
+          ],
+          "avoided_rejections": [
+            0,
+            0
+          ],
+          "mean_credit": [
+            -0.6758955705095899,
+            -0.594453308742056
+          ],
+          "conditional_tokens": {
+            "bounds": [
+              2422996,
+              null
+            ],
+            "unknown_possible": true,
+            "interpretation": "Potential workflow cost,not actual paid saving;unknown usage has no finite certified upper bound."
+          }
+        },
+        "M:00": {
+          "queries": [
+            0,
+            0
+          ],
+          "accepted": [
+            0,
+            0
+          ],
+          "rejected": [
+            0,
+            0
+          ],
+          "fn": [
+            943,
+            943
+          ],
+          "fp": [
+            0,
+            0
+          ],
+          "lost_acceptances": [
+            898,
+            908
+          ],
+          "avoided_rejections": [
+            1792,
+            1802
+          ],
+          "mean_credit": [
+            -1.0,
+            -1.0
+          ],
+          "conditional_tokens": {
+            "bounds": [
+              899026,
+              null
+            ],
+            "unknown_possible": true,
+            "interpretation": "Potential workflow cost,not actual paid saving;unknown usage has no finite certified upper bound."
+          }
+        },
+        "M:01": {
+          "queries": [
+            723,
+            730
+          ],
+          "accepted": [
+            74,
+            81
+          ],
+          "rejected": [
+            648,
+            655
+          ],
+          "fn": [
+            905,
+            907
+          ],
+          "fp": [
+            38,
+            43
+          ],
+          "lost_acceptances": [
+            823,
+            833
+          ],
+          "avoided_rejections": [
+            1143,
+            1153
+          ],
+          "mean_credit": [
+            -2.5544681457734635,
+            -2.49745856253619
+          ],
+          "conditional_tokens": {
+            "bounds": [
+              1513051,
+              null
+            ],
+            "unknown_possible": true,
+            "interpretation": "Potential workflow cost,not actual paid saving;unknown usage has no finite certified upper bound."
+          }
+        },
+        "M:10": {
+          "queries": [
+            1970,
+            1977
+          ],
+          "accepted": [
+            823,
+            833
+          ],
+          "rejected": [
+            1143,
+            1153
+          ],
+          "fn": [
+            320,
+            322
+          ],
+          "fp": [
+            202,
+            210
+          ],
+          "lost_acceptances": [
+            74,
+            81
+          ],
+          "avoided_rejections": [
+            648,
+            655
+          ],
+          "mean_credit": [
+            -0.14436685587072065,
+            -0.06292459410318686
+          ],
+          "conditional_tokens": {
+            "bounds": [
+              2706341,
+              null
+            ],
+            "unknown_possible": true,
+            "interpretation": "Potential workflow cost,not actual paid saving;unknown usage has no finite certified upper bound."
+          }
+        },
+        "M:11": {
+          "queries": [
+            2700,
+            2700
+          ],
+          "accepted": [
+            898,
+            908
+          ],
+          "rejected": [
+            1792,
+            1802
+          ],
+          "fn": [
+            283,
+            286
+          ],
+          "fp": [
+            241,
+            248
+          ],
+          "lost_acceptances": [
+            0,
+            0
+          ],
+          "avoided_rejections": [
+            0,
+            0
+          ],
+          "mean_credit": [
+            -1.67589557050959,
+            -1.594453308742056
+          ],
+          "conditional_tokens": {
+            "bounds": [
+              3322022,
+              null
+            ],
+            "unknown_possible": true,
+            "interpretation": "Potential workflow cost,not actual paid saving;unknown usage has no finite certified upper bound."
+          }
+        }
+      },
+      "evaluation_complete_case_bootstrap": {
+        "responses": 2688,
+        "sources": 450,
+        "replicates": 10000,
+        "seed": 20260917086,
+        "missing_rows": 0,
+        "metrics": {
+          "h": {
+            "interval": [
+              0.7092330603127327,
+              0.7529717682020802
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "a0": {
+            "interval": [
+              0.3165735567970205,
+              0.3512810991459339
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "a_plus": {
+            "interval": [
+              0.3979187314172448,
+              0.4399195575666164
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "a_minus": {
+            "interval": [
+              0.07865168539325841,
+              0.1272189349112426
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "delta": {
+            "interval": [
+              0.05446422276882357,
+              0.06977105855961999
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "weak_min_reward": {
+            "interval": [
+              9.517105345550947,
+              12.279849745788473
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "target_credit": {
+            "interval": [
+              -0.44108814830288745,
+              0.2315656463409299
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "blind_credit": {
+            "interval": [
+              -1.028144727271739,
+              -0.2649463249639865
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "target_menu_margin": {
+            "interval": [
+              -0.44108814830288745,
+              0.2315656463409299
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          }
+        },
+        "interpretation": "Task-stratified source-cluster percentile envelope,conditional empirical approximation;not exact coverage,not iid responses,not causal agent behavior."
+      }
+    },
+    "robust_tv_001": {
+      "contract": {
+        "D": "15784111/1336200",
+        "R": "20",
+        "blind_margin": "1/100",
+        "c": "1",
+        "deposit_interval": [
+          "20027/1700",
+          "4655/393"
+        ],
+        "minimum_reward": "1617111/83000",
+        "radius": "1/100",
+        "target_margin": "1/20"
+      },
+      "calibration_complete_case": {
+        "h": 0.7475800446760983,
+        "a0": 0.35852568875651525,
+        "a_plus": 0.43177290836653387,
+        "a_minus": 0.1415929203539823,
+        "delta": 0.05475815970845769,
+        "weak_min_reward": 11.71467986979127,
+        "target_credit": 0.4377234930565702,
+        "blind_credit": -0.40702082471680673,
+        "target_menu_margin": 0.4377234930565702
+      },
+      "evaluation_complete_case": {
+        "h": 0.7313988095238095,
+        "a0": 0.33370535714285715,
+        "a_plus": 0.41861648016276704,
+        "a_minus": 0.10249307479224377,
+        "delta": 0.06210389429209184,
+        "weak_min_reward": 10.728709535079625,
+        "target_credit": 0.10048360505939016,
+        "blind_credit": -1.1966222401412856,
+        "target_menu_margin": 0.10048360505939016
+      },
+      "evaluation_assigned_sample_bounds": {
+        "idle": {
+          "queries": [
+            0,
+            0
+          ],
+          "accepted": [
+            0,
+            0
+          ],
+          "rejected": [
+            0,
+            0
+          ],
+          "fn": [
+            943,
+            943
+          ],
+          "fp": [
+            0,
+            0
+          ],
+          "lost_acceptances": [
+            898,
+            908
+          ],
+          "avoided_rejections": [
+            1792,
+            1802
+          ],
+          "mean_credit": [
+            0.0,
+            0.0
+          ],
+          "conditional_tokens": {
+            "bounds": [
+              0,
+              0
+            ],
+            "unknown_possible": false,
+            "interpretation": "Potential workflow cost,not actual paid saving;unknown usage has no finite certified upper bound."
+          }
+        },
+        "blind": {
+          "queries": [
+            2700,
+            2700
+          ],
+          "accepted": [
+            898,
+            908
+          ],
+          "rejected": [
+            1792,
+            1802
+          ],
+          "fn": [
+            283,
+            286
+          ],
+          "fp": [
+            241,
+            248
+          ],
+          "lost_acceptances": [
+            0,
+            0
+          ],
+          "avoided_rejections": [
+            0,
+            0
+          ],
+          "mean_credit": [
+            -1.2320222693431344,
+            -1.1141975064721958
+          ],
+          "conditional_tokens": {
+            "bounds": [
+              2422996,
+              null
+            ],
+            "unknown_possible": true,
+            "interpretation": "Potential workflow cost,not actual paid saving;unknown usage has no finite certified upper bound."
+          }
+        },
+        "M:00": {
+          "queries": [
+            0,
+            0
+          ],
+          "accepted": [
+            0,
+            0
+          ],
+          "rejected": [
+            0,
+            0
+          ],
+          "fn": [
+            943,
+            943
+          ],
+          "fp": [
+            0,
+            0
+          ],
+          "lost_acceptances": [
+            898,
+            908
+          ],
+          "avoided_rejections": [
+            1792,
+            1802
+          ],
+          "mean_credit": [
+            -1.0,
+            -1.0
+          ],
+          "conditional_tokens": {
+            "bounds": [
+              899026,
+              null
+            ],
+            "unknown_possible": true,
+            "interpretation": "Potential workflow cost,not actual paid saving;unknown usage has no finite certified upper bound."
+          }
+        },
+        "M:01": {
+          "queries": [
+            723,
+            730
+          ],
+          "accepted": [
+            74,
+            81
+          ],
+          "rejected": [
+            648,
+            655
+          ],
+          "fn": [
+            905,
+            907
+          ],
+          "fp": [
+            38,
+            43
+          ],
+          "lost_acceptances": [
+            823,
+            833
+          ],
+          "avoided_rejections": [
+            1143,
+            1153
+          ],
+          "mean_credit": [
+            -3.317521968046478,
+            -3.2350446340368206
+          ],
+          "conditional_tokens": {
+            "bounds": [
+              1513051,
+              null
+            ],
+            "unknown_possible": true,
+            "interpretation": "Potential workflow cost,not actual paid saving;unknown usage has no finite certified upper bound."
+          }
+        },
+        "M:10": {
+          "queries": [
+            1970,
+            1977
+          ],
+          "accepted": [
+            823,
+            833
+          ],
+          "rejected": [
+            1143,
+            1153
+          ],
+          "fn": [
+            320,
+            322
+          ],
+          "fp": [
+            202,
+            210
+          ],
+          "lost_acceptances": [
+            74,
+            81
+          ],
+          "avoided_rejections": [
+            648,
+            655
+          ],
+          "mean_credit": [
+            0.05184187801781725,
+            0.16966664088875585
+          ],
+          "conditional_tokens": {
+            "bounds": [
+              2706341,
+              null
+            ],
+            "unknown_possible": true,
+            "interpretation": "Potential workflow cost,not actual paid saving;unknown usage has no finite certified upper bound."
+          }
+        },
+        "M:11": {
+          "queries": [
+            2700,
+            2700
+          ],
+          "accepted": [
+            898,
+            908
+          ],
+          "rejected": [
+            1792,
+            1802
+          ],
+          "fn": [
+            283,
+            286
+          ],
+          "fp": [
+            241,
+            248
+          ],
+          "lost_acceptances": [
+            0,
+            0
+          ],
+          "avoided_rejections": [
+            0,
+            0
+          ],
+          "mean_credit": [
+            -2.2320222693431346,
+            -2.114197506472196
+          ],
+          "conditional_tokens": {
+            "bounds": [
+              3322022,
+              null
+            ],
+            "unknown_possible": true,
+            "interpretation": "Potential workflow cost,not actual paid saving;unknown usage has no finite certified upper bound."
+          }
+        }
+      },
+      "evaluation_complete_case_bootstrap": {
+        "responses": 2688,
+        "sources": 450,
+        "replicates": 10000,
+        "seed": 20260917086,
+        "missing_rows": 0,
+        "metrics": {
+          "h": {
+            "interval": [
+              0.7092330603127327,
+              0.7529717682020802
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "a0": {
+            "interval": [
+              0.3165735567970205,
+              0.3512810991459339
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "a_plus": {
+            "interval": [
+              0.3979187314172448,
+              0.4399195575666164
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "a_minus": {
+            "interval": [
+              0.07865168539325841,
+              0.1272189349112426
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "delta": {
+            "interval": [
+              0.05446422276882357,
+              0.06977105855961999
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "weak_min_reward": {
+            "interval": [
+              9.517105345550947,
+              12.279849745788473
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "target_credit": {
+            "interval": [
+              -0.37838654930604143,
+              0.595878856465287
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "blind_credit": {
+            "interval": [
+              -1.741630824732411,
+              -0.6374906790170902
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          },
+          "target_menu_margin": {
+            "interval": [
+              -0.37838654930604143,
+              0.595878856465287
+            ],
+            "undefined_draws": 0,
+            "infinite_upper_draws": 0
+          }
+        },
+        "interpretation": "Task-stratified source-cluster percentile envelope,conditional empirical approximation;not exact coverage,not iid responses,not causal agent behavior."
+      }
+    }
+  },
+  "evaluation_complete_case_screening": {
+    "full": {
+      "submitted": 2688,
+      "accepted": 897,
+      "true_positives": 657,
+      "false_positives": 240
+    },
+    "selected": {
+      "submitted": 1966,
+      "accepted": 823,
+      "true_positives": 621,
+      "false_positives": 202
+    },
+    "by_task": {
+      "Data2txt": {
+        "full": {
+          "submitted": 896,
+          "accepted": 484,
+          "true_positives": 439,
+          "false_positives": 45
+        },
+        "selected": {
+          "submitted": 862,
+          "accepted": 475,
+          "true_positives": 432,
+          "false_positives": 43
+        }
+      },
+      "QA": {
+        "full": {
+          "submitted": 898,
+          "accepted": 231,
+          "true_positives": 106,
+          "false_positives": 125
+        },
+        "selected": {
+          "submitted": 553,
+          "accepted": 197,
+          "true_positives": 90,
+          "false_positives": 107
+        }
+      },
+      "Summary": {
+        "full": {
+          "submitted": 894,
+          "accepted": 182,
+          "true_positives": 112,
+          "false_positives": 70
+        },
+        "selected": {
+          "submitted": 551,
+          "accepted": 151,
+          "true_positives": 99,
+          "false_positives": 52
+        }
+      }
+    },
+    "matched_random_expectation": {
+      "submitted": 1966,
+      "true_positives": 556.6467698962255,
+      "false_positives": 163.41220214739835
+    },
+    "review_reduction": 0.26860119047619047,
+    "true_positive_retention": 0.9452054794520548
+  },
+  "token_replay": {
+    "responses": 2688,
+    "full_adjudication": 2421340,
+    "investigation": 897579,
+    "selected_adjudication": 1807315,
+    "routed_total": 2704894,
+    "relative_change": 0.1171062304343875
+  }
+}

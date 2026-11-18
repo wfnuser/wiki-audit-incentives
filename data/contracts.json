@@ -1,0 +1,28 @@
+{
+  "primary": {
+    "D": "10596643/1326336",
+    "R": "14",
+    "blind_margin": "1/100",
+    "c": "1",
+    "deposit_interval": [
+      "13649/1727",
+      "3101/384"
+    ],
+    "minimum_reward": "1642383/125471",
+    "radius": "0",
+    "target_margin": "1/20"
+  },
+  "robust_tv_001": {
+    "D": "15784111/1336200",
+    "R": "20",
+    "blind_margin": "1/100",
+    "c": "1",
+    "deposit_interval": [
+      "20027/1700",
+      "4655/393"
+    ],
+    "minimum_reward": "1617111/83000",
+    "radius": "1/100",
+    "target_margin": "1/20"
+  }
+}

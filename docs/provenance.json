@@ -1,0 +1,24 @@
+{
+  "original_sha256": {
+    "experiments/large_sample_statistics.py": "bdecd438a29e6becd6f6d7f688a9528cf004bd05227ca98a6f33694ed53bfa4d",
+    "experiments/calibration_robustness.py": "e841ff618c80c6d009d7f6d5d39a2fe135030daed6dbc3abdb42c0d51708b465",
+    "experiments/incentive_uncertainty.py": "aa338aa7e1e3f148bb8e1ee9b8238443499c99b7d6731b23b7f3b470e7513fc4",
+    "tests/test_large_sample_statistics.py": "04c51a2b32bf01308e88a8d444c6ab435e98980dc3050bc56ad51dffe67f05cf",
+    "tests/test_calibration_robustness.py": "a578cc13d42b595ff8364fe008d5e13183a966efa61f7485a603453c6abe5cfa",
+    "artifacts/ragtruth_calibration_2700_v1/protocol.json": "184456ae48bc85cb8be668939e509cf989cd0f0580cefe57579305a19122baa9",
+    "artifacts/ragtruth_calibration_2700_v1/calls.jsonl": "eb1c7039bce5b56637b71f72026ce44befaa42b85ca08b0e83a753fc8a3017cd",
+    "artifacts/ragtruth_calibration_2700_v1/inputs.json": "b71266b90f7ce6fcd5c61781675e3c0d3553dd0a061b42986230d1fc72ba5d5d",
+    "artifacts/ragtruth_calibration_2700_v1/gold.json": "1709de9cd9e8768c9614d08c76fd98963c1f21eda0f33533c1b75688a2bf5629",
+    "artifacts/ragtruth_calibration_2700_v1/cached.json": "6df0ac07c9a86243eae323bdabb7fcf2342aeecbf33761f9fcea13266f6f1a6c",
+    "artifacts/ragtruth_full_test_v1/protocol.json": "fb1140e05c0356c879fa6db4720559bade8a92a971b4be414773e66fbac6831a",
+    "artifacts/ragtruth_full_test_v1/calls.jsonl": "77d001770c4b1a0e424ca1eb68e4e8553166100a111639aaab522c0dba0084ab",
+    "artifacts/ragtruth_full_test_v1/inputs.json": "9b9d70442ca6418186c425e3d65575321b02593f7f858a9531501c23020c272d",
+    "artifacts/ragtruth_full_test_v1/gold.json": "df165a2115de5ea0e9209d408078eb0b37320b8712ff311e1d7794d5bed340df",
+    "artifacts/ragtruth_full_test_v1/cached.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  "adaptations": [
+    "Removed archival load_campaign from large_sample_statistics.py; public replay reads sanitized JSONL instead. Mathematical and bootstrap routines unchanged.",
+    "Extracted numeric measurement rows only; omitted source/response text, raw requests, credentials, and thesis administration files.",
+    "Omitted the archive-loader-only regression test because this release does not ship the archive loader. Other mathematical tests retained."
+  ]
+}
